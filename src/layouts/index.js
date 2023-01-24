@@ -14,9 +14,9 @@ const Layout = (props) => {
           <NavLink activeClassName={styles.active} to="/show">Show</NavLink>
           <NavLink activeClassName={styles.active} to="/ask">Ask</NavLink>
           <NavLink activeClassName={styles.active} to="/job">Jobs</NavLink>
-          <span className={styles.github}>
+          {/* <span className={styles.github}>
             Built with <a rel="noopener noreferrer" href="https://github.com/umijs/umi" target="_blank">Umi</a> and <a rel="noopener noreferrer" href="https://github.com/dvajs/dva" target="_blank">Dva</a>
-          </span>
+          </span> */}
         </div>
       </div>
       <div className={styles.view}>
